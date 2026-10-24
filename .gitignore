@@ -1,0 +1,64 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local credentials and machine-specific settings
+.env
+.env.*
+!.env.example
+.codex/
+.agents/
+.idea/
+.vscode/
+
+# Downloaded datasets and generated preprocessing artifacts
+/data/raw/
+/data/processed/
+*.pcap
+*.pcapng
+
+# Model checkpoints and binary experiment artifacts
+*.pt
+*.pth
+*.ckpt
+*.joblib
+*.pkl
+*.npz
+*.npy
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Exclude documentation, notebooks, packages and experimental outputs.
+/docs/
+/files/
+/analysis/
+/notebooks/
+/dist/
+/ketqua*/
+/results/
+/runs/
+/logs/
+*.zip
+*.sha256
+*.csv
+*.parquet
+*.doc
+*.docx
+*.pdf
+*.pptx
+*.xlsx
+*.png
+*.jpg
+*.svg
+*.ipynb
+*.log

@@ -1,0 +1,2 @@
+# Công cụ định dạng mã nguồn; cài riêng với các thư viện huấn luyện.
+ruff==0.17.2
